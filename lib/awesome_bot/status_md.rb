@@ -31,7 +31,7 @@ module AwesomeBot
       r = c.split "\n"
 
       output = "# Awesome Status \n\n"
-      output << "Build status for projects using https://github.com/dkhamsing/awesome_bot \n\n"
+      output << "Build status for **#{r.count}** projects using https://github.com/dkhamsing/awesome_bot \n\n"
 
 
       output << "Status | Config | Repo \n"
